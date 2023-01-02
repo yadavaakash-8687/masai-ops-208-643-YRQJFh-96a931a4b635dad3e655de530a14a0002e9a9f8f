@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dominos</title>
+    <style>
+      .nav{
+        display: flex;
+        color: blue;
+      }
+      .nav>div{
+        display: flex;
+        justify-content: middle;
+       
+      }
+      #btn{
+        color:white ;
+        background-color: red;
+        border-radius: 0px;
+      }
+      .top>div{
+        border: 2px solid red;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap: 50px;
+        background-color:red;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        
+        
+      }
+      .card>img{
+        width: 100px;
+        height: 100px;
+      }
+
+
+      .bottom{
+        border: 2px green solid;
+        justify-content: space-around;
+        background-color: silver;
+        background-image: linear-gradient(to right, rgb(241, 239, 239) , rgb(173, 186, 190));
+        display: flex;
+        text-align: left;
+        
+      }
+      .bottom>div:nth-child(1)>img{
+        height: 200px;
+
+      }
+      .bottom>div>:nth-child(2)>img{
+        height: 200px;
+      }
+
+
+
+
+      .card{
+        display: flex;
+        border: 2px solid orange;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap: 50px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+      }
+        
+        
+
+      
+
+
+
+
+
+      /* Write all styles here  */
+      @media only screen and (max-width: 1000px) {
+        /* Medium Screen  */
+      }
+
+      @media only screen and (max-width: 600px) {
+        /* Small Screen  */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <h1>DOMINO'S PIZZA</h1>
+      <div>
+        <p>OUR MENU</p>
+        <p>DOMINO'S STORES</p>
+        <p>GIFT CARD</p>
+        <p>CORPORATE ENQUIRY</p>
+        <p>CONTACT</p>
+      </div>
+      <button id="btn">Download App</button>
+      <!-- Create the Navbar here  -->
+      <!-- Use Flex to achieve the layout  -->
+    </div>
+    
+    <div class="top">
+      <h1>Order</h1>
+      <div>
+        <div class="card">
+          <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-22/Screenshot%202022-12-22%20at%208.37.04%20AM_353938.png" alt="">
+          <h3>Veg pizza</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, soluta.</p>
+          <button>view all</button>
+        </div>
+        <div class="card">
+          <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-22/Screenshot%202022-12-22%20at%208.37.04%20AM_353938.png" alt="">
+          <h3>Veg pizza</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, dicta.</p>
+          <button>view all</button>
+        </div>
+        <div class="card">
+          <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-22/Screenshot%202022-12-22%20at%208.37.04%20AM_353938.png" alt="">
+          <h3>Veg pizza</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, adipisci!</p>
+          <button>view all</button>
+        </div>
+  
+        <!-- Here should have 6 divs -->
+        <!-- Use grid to achieve the layout -->
+      </div>
+      <div>
+        <div class="card">
+          <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-22/Screenshot%202022-12-22%20at%208.37.04%20AM_353938.png" alt="">
+          <h3>Veg pizza</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, soluta.</p>
+          <button>view all</button>
+        </div>
+        
+          <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-22/Screenshot%202022-12-22%20at%208.37.04%20AM_353938.png" alt="">
+          <h3>Veg pizza</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, dicta.</p>
+          <button>view all</button>
+        
+        
+          <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-22/Screenshot%202022-12-22%20at%208.37.04%20AM_353938.png" alt="">
+          <h3>Veg pizza</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, adipisci!</p>
+          <button>view all</button>
+        
+  
+        <!-- Here should have 6 divs -->
+        <!-- Use grid to achieve the layout -->
+      </div>
+      
+    </div>
+
+
+
+
+
+    <div class="mid">
+      <h1>Explore</h1>
+      <div class="card">
+        <div >
+          <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-21/Screenshot%202022-12-21%20at%203.06.17%20PM_590391.png" alt="">
+          <h3>OUR MENU</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <div>DISCOVER PIZZA</div>
+        </div>
+        <div>
+          <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-21/Screenshot%202022-12-21%20at%203.06.17%20PM_590391.png" alt="">
+          <h3>OUR MENU</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <div>DISCOVER PIZZA</div>
+        </div>
+        <div>
+          <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-21/Screenshot%202022-12-21%20at%203.06.17%20PM_590391.png" alt="">
+          <h3>OUR MENU</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <div>DISCOVER PIZZA</div>
+        </div>
+        <div>
+          <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-21/Screenshot%202022-12-21%20at%203.06.17%20PM_590391.png" alt="">
+          <h3>OUR MENU</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <div>DISCOVER PIZZA</div>
+        </div>
+        <!-- Here should have 8 divs -->
+        <!-- Use grid to achieve the layout -->
+      </div>
+      <div class="card">
+        <div>
+          <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-21/Screenshot%202022-12-21%20at%203.06.17%20PM_590391.png" alt="">
+          <h3>OUR MENU</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <div>DISCOVER PIZZA</div>
+        </div>
+        <div>
+          <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-21/Screenshot%202022-12-21%20at%203.06.17%20PM_590391.png" alt="">
+          <h3>OUR MENU</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <div>DISCOVER PIZZA</div>
+        </div>
+        <div>
+          <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-21/Screenshot%202022-12-21%20at%203.06.17%20PM_590391.png" alt="">
+          <h3>OUR MENU</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <div>DISCOVER PIZZA</div>
+        </div>
+        <div>
+          <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-21/Screenshot%202022-12-21%20at%203.06.17%20PM_590391.png" alt="">
+          <h3>OUR MENU</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <div>DISCOVER PIZZA</div>
+        </div>
+        <!-- Here should have 8 divs -->
+        <!-- Use grid to achieve the layout -->
+      </div>
+
+      </div>
+        
+    </div>
+
+
+    <div class="bottom">
+      <!-- Use Flex to achieve the layout  -->
+      <div>
+        <img src="https://www.dominos.co.in/assets/new_app_img@2x.png" alt="">
+        <!-- Left hand side part  -->
+      </div>
+
+      <div style="width: 50%; justify-items: center;">
+        <h1>Unlock Exclusive Offers</h1>
+        <p style="font-size: 20px;">For ilghtning fast oredering experience download the Domino's app</p>
+        <div>
+          <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-21/Screenshot%202022-12-21%20at%202.47.09%20PM_558991.png" alt="">
+        <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-12-21/Screenshot%202022-12-21%20at%202.47.43%20PM_652243.png" alt="">
+        </div>
+        
+        <!-- Right hand side part  -->
+      </div>
+    </div>
+  </body>
+</html>
